@@ -17,7 +17,8 @@ def call_azure_openai(input):
         "Authorization": f"Bearer {API_KEY}"
     }
     data = {
-        "input": input
+        "question": input,
+        "chat_history": []
     }
     response = requests.post(url, headers=headers, json=data)
     return response.json()

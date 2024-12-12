@@ -1,4 +1,11 @@
+azure-ai-ml
+matplotlib
+nibabel
 numpy
-pillow
-python-dotenv
+opencv-python
+Pillow
+pydicom
 requests
+scikit-image
+SimpleITK
+urllib3

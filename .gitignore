@@ -1,3 +1,6 @@
 .venv
 history
 .env
+__pycache__
+sample_request_data.json
+workspace.config
